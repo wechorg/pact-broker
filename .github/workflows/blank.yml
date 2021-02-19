@@ -34,3 +34,8 @@ jobs:
         run: |
           npx pact-broker can-i-deploy --verbose
           echo $?
+      - name: Random passing command
+        run: |
+          echo Paul Wechuli
+          echo $?
+
